@@ -3,7 +3,7 @@ fortune
 
 ## To install
 ```js
-npm install fortune
+npm install fortune-teller
 ```
 
 ## To use
