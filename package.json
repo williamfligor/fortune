@@ -4,7 +4,7 @@
   "description": "Fortune for Node.js",
   "main": "./lib/fortune.js",
   "scripts": {
-    "postinstall": "node lib/convert",
+    "postinstall": "node lib/convert"
   },
   "repository": {
     "type": "git",
