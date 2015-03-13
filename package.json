@@ -1,6 +1,6 @@
 {
   "name": "fortune",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Fortune for Node.js",
   "main": "./lib/fortune.js",
   "scripts": {
