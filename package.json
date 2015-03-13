@@ -1,5 +1,5 @@
 {
-  "name": "fortune",
+  "name": "fortune-teller",
   "version": "0.1.2",
   "description": "Fortune for Node.js",
   "main": "./lib/fortune.js",
