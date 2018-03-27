@@ -8,7 +8,7 @@ npm install fortune-teller
 
 ## To use
 ```js
-var fortune = require('fortune')
+var fortune = require('fortune-teller')
 
 var fortune = fortune.fortune();
 ```
