@@ -4,7 +4,7 @@
   "description": "Fortune for Node.js",
   "main": "./lib/fortune.js",
   "scripts": {
-    "postinstall": "node lib/convert"
+    "build": "node lib/build-data.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,12 @@
   "bugs": {
     "url": "https://github.com/williamfligor/fortune/issues"
   },
-  "homepage": "https://github.com/williamfligor/fortune"
+  "homepage": "https://github.com/williamfligor/fortune",
+  "files": [
+    "lib/fortune.js",
+    "lib/fortune.mjs",
+    "lib/build-data.js",
+    "third-party/",
+    "data/"
+  ]
 }

@@ -1,9 +1,3 @@
-On install nothing is built. The fortunes are committed as data/fortunes.json
-and shipped in the package. In a git checkout you can add or remove files under
-fortunes/ and rebuild with `npm run build`; the published package ships only the
-generated data, not the raw fortune files, so there `npm run build` reports that
-there is nothing to rebuild.
-
 fortune
 =======
 
@@ -20,7 +14,11 @@ var fortune = fortune.fortune();
 ```
 ======
 
-On install fortune converts the fortunes in fortunes/ into json. You can add or remove files / folders from here and rebuild using npm
+On install nothing is built. The fortunes are committed as data/fortunes.json
+and shipped in the package. In a git checkout you can add or remove files under
+fortunes/ and rebuild with `npm run build`; the published package ships only the
+generated data, not the raw fortune files, so there `npm run build` reports that
+there is nothing to rebuild.
 
 Fortune for Node.js
 
