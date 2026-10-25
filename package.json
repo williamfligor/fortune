@@ -3,6 +3,14 @@
   "version": "0.2.0",
   "description": "Fortune for Node.js",
   "main": "./lib/fortune.js",
+  "exports": {
+    ".": {
+      "import": "./lib/fortune.mjs",
+      "require": "./lib/fortune.js",
+      "default": "./lib/fortune.js"
+    },
+    "./package.json": "./package.json"
+  },
   "scripts": {
     "build": "node lib/build-data.js"
   },

@@ -8,19 +8,20 @@ npm install fortune-teller
 
 ## To use
 ```js
-var fortune = require('fortune-teller')
+const fortune = require('fortune-teller')
 
-var fortune = fortune.fortune();
+fortune()
 ```
-======
+
+`fortune.fortune()` still works, so 0.1.x call sites keep running. With ESM,
+both `import fortune from 'fortune-teller'` and
+`import { fortune } from 'fortune-teller'` work.
 
 On install nothing is built. The fortunes are committed as data/fortunes.json
 and shipped in the package. In a git checkout you can add or remove files under
 fortunes/ and rebuild with `npm run build`; the published package ships only the
 generated data, not the raw fortune files, so there `npm run build` reports that
 there is nothing to rebuild.
-
-Fortune for Node.js
 
 ## License
 
