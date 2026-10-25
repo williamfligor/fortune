@@ -14,7 +14,7 @@
     "fortune"
   ],
   "author": "William Fligor <will@fligor.us> (http://williamfligor.com/)",
-  "license": "ISC",
+  "license": "BSD-3-Clause",
   "bugs": {
     "url": "https://github.com/williamfligor/fortune/issues"
   },
